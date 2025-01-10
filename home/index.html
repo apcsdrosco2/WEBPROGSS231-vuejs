@@ -14,6 +14,7 @@
 <div id="app">
   {{ message }} <br>
   {{'Random number: ' + Math.ceil(Math.random()*6) }}
+  <div v-bind:class="vueClass">This element is bound to the "pinkBG" class.</div>
 </div>
 
 <div class="container-fluid mt-3">
