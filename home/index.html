@@ -12,13 +12,6 @@
 </head>
 <body>
 
-<div id="app">
-  {{ message }} <br>
-  {{'Random number: ' + Math.ceil(Math.random()*6) }}
-    <div v-bind:class="vueClass">This element is bound to the "pinkBG" class.
-    </div>
-</div>
-
 <div class="container-fluid mt-3">
   <h1>Personal Profile Web Page</h1>
 </div>
@@ -93,6 +86,13 @@
       <img src="me.jpg" alt="Me reading my favorite trilogy: The Hunger Games" class="img-fluid rounded shadow" width="200" height="300">
     </div>
   </div>  
+</div>
+
+<div id="app">
+  {{ message }} <br>
+  {{'Random number: ' + Math.ceil(Math.random()*6) }}
+    <div v-bind:class="vueClass">This element is bound to the "pinkBG" class.
+    </div>
 </div>
  
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
