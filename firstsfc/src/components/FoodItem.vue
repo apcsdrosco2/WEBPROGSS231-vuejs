@@ -17,11 +17,11 @@ export default {
 </script>
 
 <style>
-  #app > div {
+  .apples {
     border: dashed black 1px;
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    background-color: lightgreen;
+    background-color: lightred;
   }
 </style>
