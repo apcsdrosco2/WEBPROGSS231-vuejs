@@ -10,7 +10,6 @@
         <div>6 Goals in Life / Dream</div>
         <div>7 Piclure Gallery</div>
     </main>
-        <footer> Asia Pacific College </footer>
     </div>
 </template>
 
