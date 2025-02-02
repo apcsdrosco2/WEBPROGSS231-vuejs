@@ -23,9 +23,9 @@
   <food-item2/> <br>
   <food-item/> <br>
   <personal-profile/> <br>
-    <ul>
-    <li v-for="country in countries" :key="country.id">{{ country.name }}</li>
-    </ul>
+<ul>
+<li v-for="country in countries" :key="country.id">{{ country.name }}</li>
+</ul>
 </template>
 
 
